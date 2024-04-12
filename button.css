@@ -1,0 +1,12 @@
+.btn {
+  padding: 10px 20px;
+  background-color: #6699cc; /* Softer color for buttons */
+  color: white;
+  border: none;
+  border-radius: 10px; /* More rounded corners for a softer look */
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+.btn:hover {
+  background-color: #88aadd;
+}

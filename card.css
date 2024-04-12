@@ -1,0 +1,32 @@
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;  /* Ensures that cards are centered horizontally */
+  align-items: center;      /* Aligns cards vertically in the center if there's additional vertical space */
+  padding: 20px;            /* Adds some padding around the entire cards container */
+}
+
+.card {
+  flex: 1 1 400px; /* Sets the basis to 400px and allows flexible growth and shrink */
+  margin: 20px;     /* Adds more space around each card */
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  padding: 40px;    /* Increases padding within each card for a larger appearance */
+  background: white;
+  border-radius: 15px; /* Rounded corners for aesthetic */
+  display: flex;       /* Makes the card a flex container */
+  flex-direction: column; /* Aligns children (image and h3) in a column */
+  align-items: center; /* Centers the items horizontally */
+  text-align: center;  /* Centers text */
+}
+
+.card img {
+  width: 80%;        /* Makes image larger */
+  height: auto;      /* Maintains aspect ratio */
+  border-radius: 10px; /* Rounded corners for images */
+  margin-bottom: 20px; /* Space between the image and the heading */
+}
+
+.card h3 {
+  font-size: 24px;  /* Larger font size for visibility */
+}
+

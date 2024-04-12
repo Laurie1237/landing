@@ -1,0 +1,33 @@
+/* Importing Google fonts */
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&family=Roboto:wght@300;400;700&display=swap");
+
+/* Importing component files */
+@import url("components/avatar.css");
+@import url("components/banner.css");
+@import url("components/button.css");
+@import url("components/card.css");
+@import url("components/container.css");
+@import url("components/form.css");
+
+/* General style rules for fonts and colors */
+body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+  background: url('../images/texture.jpg'); /* Textured background */
+  color: #333;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+  background-size: cover;
+}
+h1, h2, h3 {
+  font-family: 'Pacifico', cursive; /* Decorative font for headings */
+}
+a {
+  text-decoration: none;
+  color: inherit;
+  transition: color 0.3s;
+}
+a:hover {
+  color: #555;
+}
